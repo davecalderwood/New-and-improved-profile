@@ -34,7 +34,7 @@
 html, body {
   width: 100%;
   overflow: hidden;
-  background: #cfcfcf;
+  background: #f8f8f8;
 }
 .full-body {
   display: flex;
@@ -53,9 +53,42 @@ html, body {
   display: flex;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 620px) {
+  .header-links {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
 .main {
   border: 2px solid green;
   height: 100vh;
-  overflow: auto;
   margin-top: 65px;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+
+// Home.js css ------------------------------------------------------------------------------
+.homepage {
+ width: 98%;
+ height: 100vh;
+ margin: 0 auto;
+ padding-top: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+
+  .box {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    background: white;
+    margin-bottom: 10px;
+  }
+  .box2 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background: white;
+    margin-bottom: 10px;
+  }
 }

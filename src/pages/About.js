@@ -8,41 +8,6 @@ export default class About extends Component {
                 <p>Top</p>
                 <p>About</p>
                 <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>Bottom</p>
             </div>
         );
     }
