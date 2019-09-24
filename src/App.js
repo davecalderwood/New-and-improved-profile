@@ -10,25 +10,33 @@ class App extends Component {
  
   render() {
     return (
-    <div class="full-body">
+    <div className="full-body">
       <Router>
       <div className="App">  
+      <div className="header-top">
+          <a 
+            href="https://www.linkedin.com/in/david-calderwood/" 
+            target="_blank" 
+            rel="noopener noreferrer">David Calderwood
+          </a>
+        </div>
+
         <div className="header">
         <div className="header-links">
-          <Link to="/">
-              <div className="home">
+          <Link to="/" style={{ textDecoration: 'none' }}>
+              <div className="home-link">
                   <h3>Home</h3>
               </div>
             </Link>
 
-            <Link to="/favorites">
-              <div className="favorites">
+            <Link to="/favorites" style={{ textDecoration: 'none' }}>
+              <div className="favorites-link">
                 <h3>Favorites</h3>
               </div>
             </Link>
 
-            <Link to="/about">
-              <div className="about">
+            <Link to="/about" style={{ textDecoration: 'none' }}>
+              <div className="about-link">
                   <h3>About</h3>
               </div>
             </Link>
