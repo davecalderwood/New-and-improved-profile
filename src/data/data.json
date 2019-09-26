@@ -1,27 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Name one",
-        "content": "content one"
+        "name": "Work History",
+        "subTitle": "Software Developer at Yona-Brixtel",
+        "content": "Current I am currently a developer at Yona-Brixtel in Virginia (as of March 2019). Here I have learned Angular 7 along with PrimeNG and I am working on front end as well as API integration for our CEA project for the FAA. UI and API work. We are currently building this website from scratch. With this job I have a public trust government clearance."
     },
     {
         "id": 2,
-        "name": "Name Two",
-        "content": "content two"
+        "name": "David Calderwood",
+        "content": "This is me"
     },
     {
         "id": 3,
         "name": "Name Three",
-        "content": "Content three is a test of a long content label this will test to see how the longer content reacts to the longer version to see if the content wrapper works how I want it to. This will see if it runs super long if it will then run into future problems with wrapping if it goes longer than the card will allow. What happens if it runs off of the card? Will I set it to scroll or will it overlap with anything else on the page? This is almost long enough of a content on the card to test the length issue. I changed it to be a scroll auto so that way it will be able to scroll if the content is super long and needs more space than the card allows"
+        "content": "Content three is a test of a long content label this will test to see how the longer content reacts to the longer version to see if the content wrapper works how I want it to. This will see if it runs super long if it will then run into future problems with wrapping if it goes longer than the card will allow. What happens if it runs off of the card? Will I set it to scroll or will it overlap with anything else on the page? This is almost long enough of a content on the card to test the length issue. I changed it to be a scroll auto so that way it will be able to scroll if the content is super long and needs more space than the card allows. Content three is a test of a long content label this will test to see how the longer content reacts to the longer version to see if the content wrapper works how I want it to. This will see if it runs super long if it will then run into future problems with wrapping if it goes longer than the card will allow. What happens if it runs off of the card? Will I set it to scroll or will it overlap with anything else on the page? This is almost long enough of a content on the card to test the length issue. I changed it to be a scroll auto so that way it will be able to scroll if the content is super long and needs more space than the card allows. Content three is a test of a long content label this will test to see how the longer content reacts to the longer version to see if the content wrapper works how I want it to. This will see if it runs super long if it will then run into future problems with wrapping if it goes longer than the card will allow. What happens if it runs off of the card? Will I set it to scroll or will it overlap with anything else on the page? This is almost long enough of a content on the card to test the length issue. I changed it to be a scroll auto so that way it will be able to scroll if the content is super long and needs more space than the card allows"
     },
     {
         "id": 4,
-        "name": "Name Four",
-        "content": "content four"
+        "name": "Skills",
+        "content": "JavaScript, Angular, PrimeNg, React, React Native, CSS, HTML, MongoDB, API, Express, Micro, Micro-Router, Monk, Git, Jira"
     },
     {
         "id": 5,
-        "name": "Name Five",
-        "content": "content five"
+        "name": "Education",
+        "content": "I attended Helio Training in Salt Lake City, Utah. I graduated from Helio December of 2018. Helio is a full-stack software school where I learned how to design and build complete websites from end-to-end. My certificate from there is a certification of course completion and certification in full-stack web development."
+    },
+    {
+        "id": 6,
+        "name": "Six",
+        "content": "content one"
+    },
+    {
+        "id": 7,
+        "name": "Seven",
+        "content": "content one"
     }
 ]
