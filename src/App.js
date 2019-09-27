@@ -12,8 +12,8 @@ class App extends Component {
     return (
     <div className="full-body">
       <Router>
-      <div className="App">  
-      <div className="header-top">
+      <div className="header">  
+      {/* <div className="header-top">
           <a 
             href="https://www.linkedin.com/in/david-calderwood/" 
             target="_blank" 
@@ -41,8 +41,42 @@ class App extends Component {
               </div>
             </Link>
           </div>
-        </div>
+        </div> */}
           
+          
+          <div className="header-links">
+            <div className="right-link">
+              <a 
+                href="https://www.linkedin.com/in/david-calderwood/" 
+                target="_blank" 
+                rel="noopener noreferrer">David Calderwood
+              </a>
+            </div>
+
+              <div className="left-links">
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                  <div className="home-link">
+                      <h3>Home</h3>
+                  </div>
+                </Link>
+
+                <Link to="/favorites" style={{ textDecoration: 'none' }}>
+                  <div className="favorites-link">
+                    <h3>Favorites</h3>
+                  </div>
+                </Link>
+
+                <Link to="/about" style={{ textDecoration: 'none' }}>
+                  <div className="about-link">
+                      <h3>About</h3>
+                  </div>
+                </Link>
+                {/* <div className="home-link">Home</div>
+                <div className="favorites-link">Favorites</div>
+                <div className="about-link">About</div> */}
+              </div>
+          </div>
+
         </div>
 
         <div className="main">

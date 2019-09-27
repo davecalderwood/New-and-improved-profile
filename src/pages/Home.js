@@ -26,7 +26,7 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div className="homepage">
+            <div className="homepage">Home
 
                 {/* {CardData.slice(0, 4).map((cardDetail, index) => {
                     return <div key={index}>
@@ -49,7 +49,7 @@ export default class Home extends Component {
                     </div>
                 })} */}
 
-                <div className="masonry">
+                {/* <div className="masonry">
                     <div className="item">Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top </div>
                     <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 
@@ -64,7 +64,7 @@ export default class Home extends Component {
                     <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                     <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                     <div className="item">Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom </div>
-                </div>
+                </div> */}
             </div>
         );
         

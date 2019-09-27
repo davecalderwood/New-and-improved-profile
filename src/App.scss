@@ -34,82 +34,73 @@
 html, body {
   width: 100%;
   overflow: hidden;
-  background: #f8f8f8;
+  background: #1f253d;
 }
-.full-body {
-  display: flex;
-  flex-direction: column;
-}
-.header-top {
-  width: 100%;
-  // height: 10px;
-  display: flex;
-  justify-content: flex-end;
-  background: #15396c;
 
-  a {
-    text-decoration: none;
-    color: white;
-    padding-right: 20px;
-  }
-}
+// Header css -------------------------------------------------------------------------------
 .header {
-  position: fixed;
-  width: 100%;
-  height: 65px;
-  background: #003E7E;
-}
-.header-links {
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-  text-decoration: none;
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  background: #394264;
+  border-radius: 5px;
+  margin-top: 20px;
 
-  .home-link, .about-link, .favorites-link {
-    width: 100px;
-    margin-top: 1px;
-    border-radius: 10px;
-    color: black;
-    border: 2px solid darkgray;
-    background: lightgray;
-    letter-spacing: 1px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #091f2f;
-    -webkit-transition: ease-out 1.5s;
-    -moz-transition: ease-out 1.5s;
-    transition: ease-out 1.5s;
+    .header-links {
+      text-align: center;
 
-    &:hover {
-      box-shadow: inset 400px 0 0 0 #091f2f;
-      color: white;
+      .left-links {
+        width: 40%;
+        display: flex;
+        // border: 1px solid red;
+        justify-content: space-evenly;
+        position: fixed;
+        top: 0;
+
+        .home-link, .favorites-link, .about-link {
+          width: 100px;
+          height: 50px;
+          line-height: 50px;
+          color: white;
+
+          &:hover {
+            background: #4d5983;
+            border-radius: 5px;
+            border-bottom: 5px solid lightgreen;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .right-link {
+        float: right;
+        margin-right: 10px;
+        width: 150px;
+
+        &:hover {
+          background: #4d5983;
+          border-radius: 5px;
+          border-bottom: 5px solid lightgreen;
+          cursor: pointer;
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+          line-height: 50px;
+      }
     }
   }
 }
-
-@media screen and (max-width: 700px) {
-  .header-links {
-    width: 100%;
-    justify-content: space-evenly;
+@media screen and (max-width: 640px) {
+  .left-links {
+    margin-left: 10%;
+    flex-direction: column;
   }
-  .header-top {
-    width: 100%;
-    justify-content: center;
+  .header {
+    height: 200px;
   }
 }
-@media screen and (max-width: 628px) {
-  .card {
-    width: 150px;
-    height: 150px;
-  }
-}
-.main {
-  border: 2px solid lightgreen;
-  height: 100vh;
-  margin-top: 65px;
-  padding-bottom: 50px;
-  overflow: auto;
-}
-
 // Home.js css ------------------------------------------------------------------------------
 .homepage {
  width: 90%;
@@ -207,47 +198,6 @@ html, body {
       height: calc(100% - 50px);
     }
   }
-
-.masonry {
-  column-gap: 1.5em;
-  height: 100%;
-}
-
-.item {
-  background: rgb(114, 108, 108);
-  padding: .5em;
-  margin: 0 0 1.5em;
-
-  .profile {
-    text-align: center;
-
-  img {
-    width: 100px;
-    border-radius: 100%;
-  }
-  }
-}
-
-/* Masonry on large screens */
-@media only screen and (min-width: 1024px) {
-  .masonry {
-    column-count: 3;
-  }
-}
-
-/* Masonry on medium-sized screens */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .masonry {
-    column-count: 3;
-  }
-}
-
-/* Masonry on small screens */
-@media only screen and (max-width: 767px) and (min-width: 540px) {
-  .masonry {
-    column-count: 2;
-  }
-}
 
 }
 // About.js css ------------------------------------------------------------------------------
