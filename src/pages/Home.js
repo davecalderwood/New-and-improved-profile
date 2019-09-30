@@ -49,22 +49,6 @@ export default class Home extends Component {
                     </div>
                 })} */}
 
-                {/* <div className="masonry">
-                    <div className="item">Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top Top </div>
-                    <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-
-                    <div className="item">
-                        <div className="profile">
-                            <img src="../images/profile.jpg" alt="Profile"></img>
-                        </div>
-                    </div>
-
-                    <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                    <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                    <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                    <div className="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                    <div className="item">Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom Bottom </div>
-                </div> */}
             </div>
         );
         

@@ -33,8 +33,9 @@
 }
 html, body {
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   background: #1f253d;
+  color: white;
 }
 
 // Header css -------------------------------------------------------------------------------
@@ -50,26 +51,26 @@ html, body {
       text-align: center;
 
       .left-links {
-        width: 40%;
+        width: 50%;
         display: flex;
-        // border: 1px solid red;
-        justify-content: space-evenly;
-        position: fixed;
-        top: 0;
+        justify-content: space-around;
 
-        .home-link, .favorites-link, .about-link {
-          width: 100px;
-          height: 50px;
-          line-height: 50px;
-          color: white;
+          .home-link, .favorites-link, .about-link {
+            width: 100px;
+            // height: 30px;
+            color: white;
+            border: 1px solid transparent;
+            line-height: 10px;
 
-          &:hover {
-            background: #4d5983;
-            border-radius: 5px;
-            border-bottom: 5px solid lightgreen;
-            cursor: pointer;
+            &:hover {
+              background: #4d5983;
+              border-radius: 5px;
+              border-bottom: 5px solid lightgreen;
+              cursor: pointer;
+            }
           }
-        }
+
+
       }
 
       .right-link {
@@ -94,6 +95,7 @@ html, body {
 }
 @media screen and (max-width: 640px) {
   .left-links {
+    // width: 20%;
     margin-left: 10%;
     flex-direction: column;
   }
@@ -104,7 +106,7 @@ html, body {
 // Home.js css ------------------------------------------------------------------------------
 .homepage {
  width: 90%;
- height: 100vh;
+//  height: 100vh;
  margin: 0 auto;
  padding-top: 20px;
 //  display: flex;
@@ -198,7 +200,7 @@ html, body {
       height: calc(100% - 50px);
     }
   }
-
+  
 }
 // About.js css ------------------------------------------------------------------------------
 // Favorites.js css ------------------------------------------------------------------------------
