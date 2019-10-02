@@ -49,6 +49,10 @@ export default class Home extends Component {
                     </div>
                 })} */}
 
+                <div className="profile">
+                    
+                </div>
+
             </div>
         );
         
