@@ -45,11 +45,11 @@ class App extends Component {
           
           
           <div className="header-links">
-            <div className="right-link">
+            <div>
               <a 
                 href="https://www.linkedin.com/in/david-calderwood/" 
                 target="_blank" 
-                rel="noopener noreferrer">David Calderwood
+                rel="noopener noreferrer"><div className="right-link">David Calderwood</div>
               </a>
             </div>
 

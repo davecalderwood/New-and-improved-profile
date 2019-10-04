@@ -26,7 +26,28 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div className="homepage">Home
+            <div className="homepage">
+
+                <div className="left"></div>
+
+                <div className="middle">
+                    <div className="card">
+                        <div className="header">David Harrison Calderwood</div>
+                        <img src="./images/profile.jpg" alt="profile-pic"></img>
+                        <div className="contact-info">
+                            <p>davidhcalderwood@gmail.com</p>
+                            <p>david.calderwood5@gmail.com</p>
+                            <p>(503) 858-5790</p>
+                        </div>
+                        <div className="bottom-info">
+                            <div className="bottom-card left-card">1</div>
+                            <div className="bottom-card middle-card">2</div>
+                            <div className="bottom-card right-card">3</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="right"></div>
 
                 {/* {CardData.slice(0, 4).map((cardDetail, index) => {
                     return <div key={index}>
@@ -48,11 +69,6 @@ export default class Home extends Component {
 
                     </div>
                 })} */}
-
-                <div className="profile">
-                    
-                </div>
-
             </div>
         );
         
