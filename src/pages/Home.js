@@ -28,11 +28,34 @@ export default class Home extends Component {
         return (
             <div className="homepage">
 
-                <div className="left"></div>
+{/* Left Card */}
+                <div className="left">
+                    {CardData.slice(0, 4).map((cardDetail, index) => {
+                    return <div key={index}>
 
+                        <div className="card">
+                            <div className="changeable-header"> {cardDetail.name}
+                                <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i>
+                            </div>
+
+                            <div className="card-content">
+                                    <strong>{cardDetail.subTitle}</strong><br/>
+                                    {cardDetail.content}
+
+                                    {/* <div className="dropdown">
+                                        {!this.state.cardOption && <Dropdown />}
+                                    </div> */}
+                            </div>
+                        </div>
+
+                    </div>
+                })}
+                </div>
+
+{/* Middle Card */}
                 <div className="middle">
-                    <div className="card">
-                        <div className="header">David Harrison Calderwood</div>
+                    <div className="card profile">
+                        <div className="header">David Harrison Calderwood</div><br/>
                         <img src="./images/profile.jpg" alt="profile-pic"></img>
                         <div className="contact-info">
                             <p>davidhcalderwood@gmail.com</p>
@@ -45,15 +68,11 @@ export default class Home extends Component {
                             <div className="bottom-card right-card">3</div>
                         </div>
                     </div>
-                </div>
-
-                <div className="right"></div>
-
-                {/* {CardData.slice(0, 4).map((cardDetail, index) => {
+                    {CardData.slice(0, 2).map((cardDetail, index) => {
                     return <div key={index}>
 
                         <div className="card">
-                            <div className="card-header"> {cardDetail.name}
+                            <div className="changeable-header"> {cardDetail.name}
                                 <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i>
                             </div>
 
@@ -61,14 +80,39 @@ export default class Home extends Component {
                                     <strong>{cardDetail.subTitle}</strong><br/>
                                     {cardDetail.content}
 
-                                    <div className="dropdown">
+                                    {/* <div className="dropdown">
                                         {!this.state.cardOption && <Dropdown />}
-                                    </div>
+                                    </div> */}
                             </div>
                         </div>
 
                     </div>
-                })} */}
+                })}
+                </div>
+
+{/* Right Card */}
+                <div className="right">
+                    {CardData.slice(2, 4).map((cardDetail, index) => {
+                        return <div key={index}>
+
+                            <div className="card">
+                                <div className="changeable-header"> {cardDetail.name}
+                                    <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i>
+                                </div>
+
+                                <div className="card-content">
+                                        <strong>{cardDetail.subTitle}</strong><br/>
+                                        {cardDetail.content}
+
+                                        {/* <div className="dropdown">
+                                            {!this.state.cardOption && <Dropdown />}
+                                        </div> */}
+                                </div>
+                            </div>
+
+                        </div>
+                    })}
+                </div>
             </div>
         );
         
