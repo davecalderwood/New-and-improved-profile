@@ -6,7 +6,6 @@ export default class About extends Component {
         return (
             <div className="about">
                 <div className="storybox">
-                    <p className="title">My story</p>
                     <p className="story">I grew up playing Lacrosse and Football. I love to wakeboard, waterski and snowboard. I graduated high-school in 2014 and moved to Utah to attend school at Utah Valley University.</p>
 
                     <p className="story">At UVU I studied History, Physics and spent most of my time as an Aviation Science major. I left UVU after I kept getting the run around from UVU and FAA. On the suggestion from a friend I went to Helio Training to become a web developer. I have always had a fascination with computer science and I wanted to get the skills necessary to get a job as a developer.</p>

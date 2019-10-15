@@ -75,7 +75,7 @@ html, body {
 .homepage {
  width: 90%;
  margin: 0 auto;
- padding-top: 20px;
+//  padding-top: 20px;
  height: 100vh;
  display: flex;
  justify-content: space-between;
@@ -195,26 +195,16 @@ html, body {
 .about {
   width: 90%;
   margin: 0 auto;
-  // padding-top: 20px;
+  padding-top: 20px;
 
   .storybox {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 20px 50px 0 50px;
+    margin-bottom: 20px;
     width: 75%;
     margin: 0 auto;
     background: #394264;
     border-radius: 5px;
-    padding-bottom: 20px;
 
-    .title {
-      font-family: Chewy;
-      color: rgb(32, 124, 124);
-      font-style: italic;
-      font-size: 4em;
-      font-weight: bold;
-      transform: rotate(-5deg);
-      letter-spacing: 10px;
-    }
     .story {
       font-size: 20px;
       font-family: fantasy;
@@ -222,6 +212,7 @@ html, body {
 
     .external-links {
       display: flex;
+      padding-bottom: 20px;
 
       a {
         text-decoration: none;
