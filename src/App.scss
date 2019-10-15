@@ -3,7 +3,7 @@ html, body {
   height: auto;
   // overflow: auto;
   // background: #1f253d;
-  background-image: linear-gradient(to bottom right, #14182b, #353d5e);
+  background-image: linear-gradient(to bottom right, #0e1120, #414868);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -269,3 +269,29 @@ html, body {
 
 }
 // Favorites.js css ------------------------------------------------------------------------------
+.favorites {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  .row {
+    border: 1px solid white;
+    width: 100%;
+    height: 28%;
+    margin-top: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    .card {
+      width: 250px;
+      height: 100%;
+      border: 1px solid red;
+      display: inline-block;
+      margin: 0 10px 0 10px;
+      vertical-align: middle;
+    }
+  }
+}
