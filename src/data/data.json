@@ -1,38 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Work History",
+        "name": "Software Work History",
         "subTitle": "Software Developer at Yona-Brixtel",
         "content": "Current I am currently a developer at Yona-Brixtel in Virginia (as of March 2019). Here I have learned Angular 7 along with PrimeNG and I am working on front end as well as API integration for our CEA project for the FAA. UI and API work. We are currently building this website from scratch. With this job I have a public trust government clearance."
     },
     {
         "id": 2,
-        "name": "David Calderwood",
-        "content": "This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me "
-    },
-    {
-        "id": 3,
-        "name": "Name Three",
-        "content": "Content three is a test of a long content label this will test to see how the longer content reacts to the longer version to see if the content wrapper works how I want it to. This will see if it runs super long if it will then run into future problems with wrapping if it goes longer than the card will allow. What happens if it runs off of the card? Will I set it to scroll or will it overlap with anything else on the page? This is almost long enough of a content on the card to test the length issue. I changed it to be a scroll auto so that way it will be able to scroll if the content is super long and needs more space than the card allows. Content three is a test of a long content label this will test to see how the longer content reacts to the longer version to see if the content wrapper works how I want it to. This will see if it runs super long if it will then run into future problems with wrapping if "
-    },
-    {
-        "id": 4,
-        "name": "Skills",
+        "name": "Skill Set",
         "content": "JavaScript, Angular, PrimeNg, React, React Native, CSS, HTML, MongoDB, API, Express, Micro, Micro-Router, Monk, Git, Jira"
     },
     {
+        "id": 3,
+        "name": "Non-Software Work History",
+        "subTitle": "Nomo Pest Solutions and Quick Quack Car Wash",
+        "content": "While at Helio Training I was working at a car wash in Orem, Utah called Quick Quack Car Wash. I also attended Utah Valley University for a few years while I was deciding what field I wanted to go in. While at UVU I worked both as a salesman and a technician for Nomo Pest Solutions based in Bluffdale, Utah. Both of these jobs made me much better at talking with clients and communicating in general. These jobs have helped me in several ways at my current job as a software developer for Yona-Brixtel. They might not have given me technical skills for the work but they did allow me to learn how to work with people from several different departments at the same time and how to communicate my goals clearly. I learned how to deal with difficult clients and co-workers and help them with questions or concerns they might have."
+    },
+    {
+        "id": 4,
+        "name": "Achievements",
+        "content": "I am an Eagle-Scout and I have an Eagle Palm to go along with it. This taught me how to organize and plan out large scale events as well as smaller day to day items. I attended and graduated from Helio Training in SLC as a Full-Stack developer. This school taught me how to think as a developer and puzzler."
+    },
+    {
         "id": 5,
-        "name": "Education",
-        "content": "I attended Helio Training in Salt Lake City, Utah. I graduated from Helio December of 2018. Helio is a full-stack software school where I learned how to design and build complete websites from end-to-end. My certificate from there is a certification of course completion and certification in full-stack web development."
+        "name": "Self Education",
+        "content": "I have fallen in love with software so I continue my learning/skills outside of work as well. I love the Udemy courses and learning new languages. I have taken stabs at many languages and practices. Whenever I see something cool I always say to myself 'hey I wonder if I could do that'. I love learning, and not just about software."
     },
     {
         "id": 6,
-        "name": "Six",
-        "content": "content one"
+        "name": "Software Experience",
+        "content": "I have loved working with other developers, and especially the head and lead developers. I fell I pick up information very quickly and learn tons from them. I never need to be told how to do something twice. I love learning from them and then applying it to my tasks. The software community is amazing and I love how everyone is willing and able to help each other."
     },
     {
         "id": 7,
-        "name": "Seven",
-        "content": "content one"
+        "name": "Books",
+        "content": "I very much love to read, and by far my favorite thing to read is fantasy. Tolkien started my journey through fantasy worlds and I have fallen in love since. Lord of the Rings will always be one of the greatest stories ever written."
+    },
+    {
+        "id": 8,
+        "name": "Education",
+        "subTitle": "Helio Training",
+        "content": "I attended Helio Training in Salt Lake City, Utah. I graduated from Helio December of 2018. Helio is a full-stack software school where I learned how to design and build complete websites from end-to-end. My certificate from there is a certification of course completion and certification in full-stack web development. My final project at school was a full-stack website that was a book tracker. I implemented functionality such as: Create, Read, Update and Delete as well as a fully functional search bar."
+    },
+    {
+        "id": 9,
+        "name": "Favorite Quote",
+        "content": "I don't know half of you half as well as I should like; and I like less than half of you half as well as you deserve. - J.R.R. Tolkien"
     }
 ]

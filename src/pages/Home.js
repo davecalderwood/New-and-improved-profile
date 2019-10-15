@@ -30,12 +30,12 @@ export default class Home extends Component {
 
 {/* Left Card */}
                 <div className="left">
-                    {CardData.slice(0, 4).map((cardDetail, index) => {
+                    {CardData.slice(0, 3).map((cardDetail, index) => {
                     return <div key={index}>
 
                         <div className="card">
                             <div className="changeable-header"> {cardDetail.name}
-                                <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i>
+                                {/* <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i> */}
                             </div>
 
                             <div className="card-content">
@@ -68,12 +68,12 @@ export default class Home extends Component {
                             <div className="bottom-card right-card">3</div>
                         </div>
                     </div>
-                    {CardData.slice(0, 2).map((cardDetail, index) => {
+                    {CardData.slice(7, 9).map((cardDetail, index) => {
                     return <div key={index}>
 
                         <div className="card">
                             <div className="changeable-header"> {cardDetail.name}
-                                <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i>
+                                {/* <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i> */}
                             </div>
 
                             <div className="card-content">
@@ -92,12 +92,12 @@ export default class Home extends Component {
 
 {/* Right Card */}
                 <div className="right">
-                    {CardData.slice(2, 4).map((cardDetail, index) => {
+                    {CardData.slice(3, 7).map((cardDetail, index) => {
                         return <div key={index}>
 
                             <div className="card">
                                 <div className="changeable-header"> {cardDetail.name}
-                                    <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i>
+                                    {/* <i className="fa fa-ellipsis-v fa-lg" onClick={this.changeCard}></i> */}
                                 </div>
 
                                 <div className="card-content">
