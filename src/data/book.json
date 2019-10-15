@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "series": "Lord of the Rings:",
+        "title": "Fellowship of the Ring",
+        "image": "./images/lotrfotr.jpeg",
+        "description": "description",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "id": 2,
+        "series": "Lord of the Rings:",
+        "title": "Two Towers",
+        "image": "./images/lotrtt.jpeg",
+        "description": "description",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "id": 3,
+        "series": "Lord of the Rings:",
+        "title": "Return of the King",
+        "image": "./images/lotrrotk.jpeg",
+        "description": "description",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "id": 4,
+        "series": "The Hobbit",
+        "title": "",
+        "image": "./images/hobbit.jpeg",
+        "description": "description",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "id": 5,
+        "series": "Saga of the Forgotton Warrior",
+        "title": "Son of the Black Sword",
+        "image": "./images/sagablacksword.jpeg",
+        "description": "description",
+        "author": "Larry Correia"
+    },
+    {
+        "id": 6,
+        "series": "Saga of the Forgotton Warrior",
+        "title": "House of Assassins",
+        "image": "./images/sagahouse.jpeg",
+        "description": "description",
+        "author": "Larry Correia"
+    }
+]
