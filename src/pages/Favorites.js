@@ -16,7 +16,7 @@ export default class Favorites extends Component {
 
                 <div className="row">
                     <div className="book">
-                        {BookData.slice(0, 9).map((bookDetail, index) => {
+                        {BookData.slice(0, 20).map((bookDetail, index) => {
                             return <div key={index}>
                                 <div className="card">
                                     {bookDetail.series}<br/>

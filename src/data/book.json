@@ -46,5 +46,45 @@
         "image": "./images/sagahouse.jpeg",
         "description": "description",
         "author": "Larry Correia"
+    },
+    {
+        "id": 7,
+        "series": "A Song of Ice and Fire",
+        "title": "A Game of Thrones",
+        "image": "./images/asoiaf1.jpeg",
+        "description": "description",
+        "author": "George R. R. Martin"
+    },
+    {
+        "id": 8,
+        "series": "A Song of Ice and Fire",
+        "title": "A Clash of Kings",
+        "image": "./images/asoiaf2.jpeg",
+        "description": "description",
+        "author": "George R. R. Martin"
+    },
+    {
+        "id": 9,
+        "series": "A Song of Ice and Fire",
+        "title": "A Storm of Swords",
+        "image": "./images/asoiaf3.jpeg",
+        "description": "description",
+        "author": "George R. R. Martin"
+    },
+    {
+        "id": 10,
+        "series": "A Song of Ice and Fire",
+        "title": "A Feast for Crows",
+        "image": "./images/asoiaf4.jpeg",
+        "description": "description",
+        "author": "George R. R. Martin"
+    },
+    {
+        "id": 11,
+        "series": "A Song of Ice and Fire",
+        "title": "A Dance with Dragons",
+        "image": "./images/asoiaf5.jpeg",
+        "description": "description",
+        "author": "George R. R. Martin"
     }
 ]
