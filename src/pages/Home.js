@@ -39,8 +39,8 @@ export default class Home extends Component {
                             </div>
 
                             <div className="card-content">
-                                    <strong>{cardDetail.subTitle}</strong><br/>
-                                    {cardDetail.content}
+                                    {/* <strong>{cardDetail.subTitle}</strong><br/> */}
+                                    <p>{cardDetail.content}</p>
 
                                     {/* <div className="dropdown">
                                         {!this.state.cardOption && <Dropdown />}
@@ -77,8 +77,8 @@ export default class Home extends Component {
                             </div>
 
                             <div className="card-content">
-                                    <strong>{cardDetail.subTitle}</strong><br/>
-                                    {cardDetail.content}
+                                    {/* <strong>{cardDetail.subTitle}</strong><br/> */}
+                                    <p>{cardDetail.content}</p>
 
                                     {/* <div className="dropdown">
                                         {!this.state.cardOption && <Dropdown />}
@@ -92,7 +92,7 @@ export default class Home extends Component {
 
 {/* Right Card */}
                 <div className="right">
-                    {CardData.slice(3, 7).map((cardDetail, index) => {
+                    {CardData.slice(3, 5).map((cardDetail, index) => {
                         return <div key={index}>
 
                             <div className="card">
@@ -101,8 +101,8 @@ export default class Home extends Component {
                                 </div>
 
                                 <div className="card-content">
-                                        <strong>{cardDetail.subTitle}</strong><br/>
-                                        {cardDetail.content}
+                                        {/* <strong>{cardDetail.subTitle}</strong><br/> */}
+                                        <p>{cardDetail.content}</p>
 
                                         {/* <div className="dropdown">
                                             {!this.state.cardOption && <Dropdown />}
@@ -112,6 +112,15 @@ export default class Home extends Component {
 
                         </div>
                     })}
+                    <div className="card">
+                        <div className="changeable-header">Projects</div>
+                        <div className="card-content">
+                            <strong>Yona-Brixtel</strong>
+                            <p>At YB we have been using Angular 7+ with PrimeNG and Bootstrap to build the FAA a new internal application. </p>
+                            <strong>Stars Mobile App</strong>
+                            <p>At Helio Training we started building the Utah Stars a mobile application that was similar to the Utah Jazz app. This was built using React-Native. After graduation we passed the project down to the next group of students.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
