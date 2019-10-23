@@ -30,7 +30,7 @@ export default class Favorites extends Component {
                     </div>
                 </div>
 
-                <div className="row">
+                {/* <div className="row">
                 <div className="card">1</div>
                     <div className="card">2</div>
                     <div className="card">3</div>
@@ -40,7 +40,7 @@ export default class Favorites extends Component {
                     <div className="card">7</div>
                     <div className="card">8</div>
                     <div className="card">9</div>
-                </div>
+                </div> */}
 
                 {/* <div className="row">
                 <div className="card">1</div>
